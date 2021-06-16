@@ -1,4 +1,4 @@
-package com.company;
+package StackQueue;
 
 public class Function_development {
     public static void main(String[] args) {
