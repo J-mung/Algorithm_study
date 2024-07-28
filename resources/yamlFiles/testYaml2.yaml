@@ -1,0 +1,33 @@
+clients:
+  - name: CLIENT1
+    description: 클라이언트 1
+    runable: true
+    polling: 5
+    source:
+      protocol: SFTP
+      host: 127.0.0.2
+      port: 10022
+      user: client1
+      password: null
+    target:
+      protocol: SFTP
+      host: 127.0.0.1
+      port: 22
+      user: localhost
+      password: null
+  - name: CLIENT2
+    description: 클라이언트 2
+    runable: true
+    polling: 10
+    source:
+      protocol: FTP
+      host: 127.0.0.2
+      port: 10021
+      user: client2
+      password: null
+    target:
+      protocol: SFTP
+      host: 127.0.0.1
+      port: 22
+      user: localhost
+      password: null

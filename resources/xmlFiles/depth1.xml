@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dataset>
+    <record>
+        <id>1</id>
+        <first_name>Kimberly</first_name>
+        <last_name>Lucus</last_name>
+        <email>klucus0@about.me</email>
+        <gender>Female</gender>
+        <ip_address>97.68.33.159</ip_address>
+    </record>
+    <record>
+        <id>2</id>
+        <first_name>Kimberly</first_name>
+        <last_name>Lucus</last_name>
+        <email>klucus0@about.me</email>
+        <gender>Female</gender>
+        <ip_address>127.0.0.1</ip_address>
+    </record>
+</dataset>
